@@ -76,12 +76,12 @@ p {
 
 .hero-section p {
   color: #E5E7EB;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .info p {
   color: #5b6b81;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .quote {
@@ -105,21 +105,20 @@ p {
   padding: 16px;
 }
 
-.btn-primary {
+.btn {
+  display: inline-block;
   padding: 8px 32px;
-  background-color: #3882f6;
   font-weight: 800;
   color: white;
   border-radius: 6px;
 }
 
-.btn-secondary {
-  padding: 8px 32px;
+.btn-primary {
   background-color: #3882f6;
-  font-weight: 800;
-  color: white;
+}
+
+.btn-secondary {  
   border: 2px solid white;
-  border-radius: 6px;
 }
 
 .header .container {
@@ -164,7 +163,7 @@ p {
   margin: 0 64px;
 }
 
-.message {
+.cta-message {
   margin: 72px auto;
   color: white;
   background-color: #3882f6;
